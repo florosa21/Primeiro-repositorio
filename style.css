@@ -22,7 +22,10 @@
     min-height: 100vh;
     /*liita a altura do body ao mínino de 100% da altura da tela do dispositivo*/
   }
-  
+  img {
+    width: 94px;
+    height: 94px;
+  }
   h1 {
     color: var(--branca);
     margin-bottom: 20px;/*adiciona uma margim na parte inferior de 20px*/
@@ -47,10 +50,10 @@
   }
   
   .tecla {
-    background-image: url(image/aplausos.svg);
-    background-size:contain;
-    background-repeat: no-repeat;
-    /*coloca de fundo da tecla*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 30px;
     /*arredonda a borda da tecla*/
     box-shadow: 3px 3px 0 var(--cinza);
