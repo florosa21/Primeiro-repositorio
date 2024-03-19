@@ -50,6 +50,7 @@ margin: 0 auto;
    border-left: 2px solid var(--botao-ativo);
    border-right: 2px solid var(--botao-ativo);
    border-top: none;
+ 
 }
 
 .botao:first-child{
@@ -59,9 +60,16 @@ border-radius: 40px 40px 0 0 ;
 .botoes{
     display: block;
 }
+
+.ativo{
+   background-color: var(--botao-ativo);
+   border-bottom: 4px solid var(--verde);
+}
+
 @media screen and (min-width: 768px) {
    .botoes{
       display:flex;
+
    }
    .botao:first-child{
       border-radius: 40px 0 0 0;
