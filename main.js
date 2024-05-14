@@ -37,7 +37,7 @@ function calculaTempo(tempoObjetivo) {
     if (tempoFinal > 0){
         return [dias,horas,minutos,segundo];
     } else {
-        return [0,0,0];
+        return [0,0,0,0];
         }
     }
 
@@ -52,7 +52,7 @@ document.getElementById("seg+i").textContent = calculaTempo(tempos[i])[3];
 
 function comecaCronometro(){
     atualizaCronometro();
-    setInterval(atualizaCronometro, 1000);
+    setInterval(atualizaCronometro,1000);
 }
 
 comecaCronometro();
