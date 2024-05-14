@@ -47,6 +47,7 @@ document.getElementById("dias0").textContent = calculaTempo(tempos[i])[0];
 document.getElementById("horas0").textContent = calculaTempo(tempos[i])[1];
 document.getElementById("min0").textContent = calculaTempo(tempos[i])[2];
 document.getElementById("seg0").textContent = calculaTempo(tempos[i])[3];
+console.log("seg"+i)
      }
 }
 
